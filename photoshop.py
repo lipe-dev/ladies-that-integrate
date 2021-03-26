@@ -21,8 +21,9 @@ IMAGES = [os.path.join("backgrounds", "black.png"), os.path.join("backgrounds", 
 
 bariol = ImageFont.truetype('bariol.ttf', FONT_SIZE)
 
+
 def has_punctuation(text):
-    return re.match(r"^.*[.,:;)].*", text) is not None
+    return re.match(r"^.*[.,:;].*", text) is not None
 
 
 def fits_in_line(draw, font, text):
