@@ -38,7 +38,10 @@ Many OSes offer an `Open in Terminal` context menu option when you right click i
 Now that you are inside the project folder, you need to install it. Run this command to do so:
 
 ```shell
-# This tells the app pip (python's package manager) to install all dependencies listed in the txt file
+# This tells the app pip (python's package manager) 
+#   to install all dependencies listed in the .txt
+#   all dependencies are well established and safe libraries, don't worry
+#     if you are worried, you can quickly google all of them to learn more.
 pip install -r requirements.txt
 
 # In case that doesn't work, try this:
